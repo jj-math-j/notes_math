@@ -30,10 +30,14 @@ the process of evaluating mathematical expressions
 
 - **Constant**: A fixed value that does not change (e.g., 5 in the expression `2x + 5`).
 
-## operation properties
+## arithmetic properties
 
 - **Commutativity**: Operand order does not affect operation result (e.g., `u + v = v + u`, `u * v = v * u`).
 
 - **Associativity**: Operation grouping does not affect expression result (e.g., `(u + v) + w = u + (v + w)`, `(u * v) * w = u * (v * w)`).
 
 - **Distributivity**" (e.g., `u * (v + w) = u * v + u * w`)
+
+## side notes
+
+parenthesis are a type of operation (macro???) themselves, as in they have a direct impact the result of an expression
