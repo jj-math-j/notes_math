@@ -22,15 +22,23 @@ the process of evaluating mathematical expressions
 
 ## properties
 
-- **commutativity**: operand order does not affect operation result (e.g., `u + v = v + u`, `u * v = v * u`).
+- **commutativity**: operand order does not affect operation result (e.g., `u + v = v + u`, `u * v = v * u`)
 
-- **associativity**: operation grouping does not affect expression result (e.g., `(u + v) + w = u + (v + w)`, `(u * v) * w = u * (v * w)`).
+- **associativity**: operation grouping does not affect expression result (e.g., `(u + v) + w = u + (v + w)`, `(u * v) * w = u * (v * w)`)
+
+- **self existence**: <todo>
+
+- **zero existence**: <todo>
 
 ## operations
 
 <todo>
 
-## notation
+## shorthands
+
+- **coefficient**: <todo>
+
+- **negative**: <todo>
 
 <todo>
 
