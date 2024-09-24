@@ -14,7 +14,7 @@ the process of evaluating mathematical expressions
 
 - **operand**: an input value in an operation (the building blocks of calculation)
 
-- **operator**: a fixed symbol representing an operation in an expression
+- **operator**: a fixed symbol representing an operation within an expression
 
 - **operation**: a deterministic process applied to operands that yields a new value, representing a condensed version of the original expanded operation
 
