@@ -14,7 +14,7 @@ the process of evaluating mathematical expressions
 
 - **operand**: an input value in an operation (the building blocks of calculation)
 
-- **operation**: a deterministic process applied to operands that results in a new value, representing a condensed version of the original expanded operation
+- **operation**: a deterministic process applied to operands that yields a new value, which represents a condensed version of the original expanded operation
 
 ## arithmetic properties
 
