@@ -20,6 +20,8 @@ the process of evaluating mathematical expressions
 
 - **operation**: a deterministic process performed on operands that yields a new value, representing a condensed version of the original expanded operation
 
+- **precedence**: <todo>???
+
 ## properties
 
 - **commutativity**: operand order does not affect operation result (e.g., `u + v = v + u`, `u * v = v * u`)
@@ -32,7 +34,15 @@ the process of evaluating mathematical expressions
 
 ## operations
 
-<todo>
+- **addition**: <todo>
+
+- **subtraction**: <todo>
+
+- **multiplication**: <todo>
+
+- **division**: <todo>
+
+- **grouping**: <todo>
 
 ## shorthands
 
@@ -40,10 +50,5 @@ the process of evaluating mathematical expressions
 
 - **negative**: <todo>
 
-<todo>
+- **precedence**: <todo>???
 
-## side notes
-
-parenthesis are a type of operation (macro???) themselves, as in they have a direct impact the result of an expression
-
-need to talk about operation precedence somewhere
