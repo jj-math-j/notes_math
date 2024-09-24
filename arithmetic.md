@@ -10,7 +10,7 @@ the process of evaluating mathematical expressions
  
   - **variable**: a symbol representing an unknown or dynamic value (e.g., `x` in `2x + 3`)
 
-  - **expression**: an operation or combination of operations  (e.g., `2 * 3 + 5`)
+  - **expression**: an operation or combination of operations, along with their operands  (e.g., `2 * 3 + 5`)
 
 - **operand**: an input value in an operation (the building blocks of calculation)
 
