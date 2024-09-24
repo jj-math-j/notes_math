@@ -14,15 +14,21 @@ the process of evaluating mathematical expressions
 
 - **operand**: an input value in an operation (the building blocks of calculation)
 
+- **operator**: a fixed symbol representing an operation in an expression
+
 - **operation**: a deterministic process applied to operands that yields a new value, representing a condensed version of the original expanded operation
 
-## arithmetic properties
+## properties
 
-- **Commutativity**: Operand order does not affect operation result (e.g., `u + v = v + u`, `u * v = v * u`).
+- **commutativity**: operand order does not affect operation result (e.g., `u + v = v + u`, `u * v = v * u`).
 
-- **Associativity**: Operation grouping does not affect expression result (e.g., `(u + v) + w = u + (v + w)`, `(u * v) * w = u * (v * w)`).
+- **associativity**: operation grouping does not affect expression result (e.g., `(u + v) + w = u + (v + w)`, `(u * v) * w = u * (v * w)`).
 
-- **Distributivity**" (e.g., `u * (v + w) = u * v + u * w`)
+- **distributivity**: <todo> (e.g., `u * (v + w) = u * v + u * w`)
+
+## operations
+
+<todo>
 
 ## side notes
 
