@@ -30,6 +30,10 @@ the process of evaluating mathematical expressions
 
 <todo>
 
+## notation
+
+<todo>
+
 ## side notes
 
 parenthesis are a type of operation (macro???) themselves, as in they have a direct impact the result of an expression
