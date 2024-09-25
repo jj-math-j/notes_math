@@ -48,13 +48,13 @@ the process of evaluating mathematical expressions
 
 ## operations
 
-- **addition**: <todo>
+- **addition**: the combination of two unique values into a single representative value
 
-- **multiplication**: <todo>
+- **multiplication**: the scaling of a number by itself some number of times
 
-- **division**: <todo>
+- **division**: the partitioning of a number into some number of pieces
 
-- **grouping**: <todo>
+- **grouping**: the prioritization of an operation's evaluation
 
 ## shorthands 
 
