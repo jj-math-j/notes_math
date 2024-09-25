@@ -40,9 +40,9 @@ the process of evaluating mathematical expressions
 
     - **0 to the 0th power**: undefined behavior
    
-- **one**: the building block for counting (e.g., ``)
+- **one**: the building block for counting (e.g., `1 + 1 + 1 = 3`, `3 / 3 = 1`)
 
-  - **multiplication identity**: all multiplication operations can multiply itself by one and not change the result, thus all multiplications can be viewed as having an implicit multiplication by one (e.g., ``)
+  - **multiplication identity**: all multiplication operations can multiply itself by one and not change the result, thus all multiplications can be viewed as having an implicit multiplication by one (e.g., `3 * 3 = 1 * 3 * 3`)
 
 - **self**: (e.g., `u + 0 = u`, `u * 1 = u`, `u - u = 0`, `u = u`)
 
