@@ -28,11 +28,17 @@ the process of evaluating mathematical expressions
 
 - **associativity**: operation order/grouping does not affect expression result (e.g., `(u + v) + w = u + (v + w)`, `(u * v) * w = u * (v * w)`)
 
-  - **left/right associativity**: how the order of operations with equal precedence are resolved 
+  - **left/right associativity**: how the order of operations with equal precedence are evaluated
 
-- **self**: <todo>
+- **zero**: the absence of quantity (e.g., `u + 0 = u`, `u * 0 = 0`, `u - u = 0`)
 
-- **zero**: <todo>
+  - **division by zero**: undefined
+ 
+  - **zero exponent**: ???
+
+    - **0 to the 0th power**: ???
+
+- **self**: distinct and unique (e.g., `u + 0 = u`, `u * 1 = u`, `u - u = 0`, `u = u`)
 
 ## operations
 
