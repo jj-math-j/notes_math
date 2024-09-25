@@ -58,13 +58,13 @@ the process of evaluating mathematical expressions
 
 ## shorthands 
 
-- **coefficient**: `the 3 in 3x`
+- **coefficient**: (e.g., the 3 in `3x` where `3x = 3 * x`)
 
-- **negation**: `-x = -1 * x`
+- **negation**: (e.g., `-x = -1 * x`)
 
-- **subtraction**: `7 - x = 7 + (-x) = 7 + (-1 * x)`
+- **subtraction**: (e.g., `7 - x = 7 + (-x) = 7 + (-1 * x)`)
 
-- **exponent**: `x^2 = x * x`
+- **exponent**: (.e.g., `x^3 = x * x * x`)
 
 ## outstanding questions
 
