@@ -46,19 +46,19 @@ the process of evaluating mathematical expressions
 
 - **multiplication**: <todo>
 
+- **division**: <todo>
+
 - **grouping**: <todo>
 
 ## shorthands 
 
-- **negation**: <todo>
+- **coefficient**: `the 3 in 3x`
 
-- **coefficient**: <todo>
+- **negation**: `-x = -1 * x`
 
-- **subtraction**: <todo>
+- **subtraction**: `7 - x = 7 + (-1 * x)`
 
-- **division**: <todo>
-
-- **exponent**: <todo>
+- **exponent**: `x^2 = x * x`
 
 ## outstanding questions
 
