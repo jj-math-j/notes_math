@@ -48,13 +48,13 @@ the process of evaluating mathematical expressions
 
 ## operations
 
-- **addition**: the combination of two unique values into a single representative value
+- **addition**: the combination of two unique values into a single representative value (e.g., `1 + 1 = 2`, `1 + 2 = 3`)
 
-- **multiplication**: the scaling of a number by itself some number of times
+- **multiplication**: the scaling of a number by itself some number of times (e.g., )
 
-- **division**: the partitioning of a number into some number of equal pieces
+- **division**: the partitioning of a number into some number of equal pieces (e.g., `4 / 2 = 2`, `2 / 2 = 1`, `1 / 2 = 0.5`)
 
-- **grouping**: the prioritization of an operation's evaluation relative to its peers
+- **grouping**: the prioritization of an operation's evaluation relative to its peers (e.g., `3 * (2 + 1) = 9`, `3 * 2 + 1 = 7`)
 
 ## shorthands 
 
