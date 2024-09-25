@@ -42,13 +42,13 @@ the process of evaluating mathematical expressions
 
 ## shorthands 
 
-- **subtraction**: <todo>
-
-- **division**: <todo>
+- **negation**: <todo>
 
 - **coefficient**: <todo>
 
-- **negative**: <todo>
+- **subtraction**: <todo>
+
+- **division**: <todo>
 
 - **exponent**: <todo>
 
