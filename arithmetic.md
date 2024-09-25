@@ -28,15 +28,21 @@ the process of evaluating mathematical expressions
 
 - **associativity**: operation order/grouping does not affect expression result (e.g., `(u + v) + w = u + (v + w)`, `(u * v) * w = u * (v * w)`)
 
-  - **left/right associativity**: how the order of operations with equal precedence are evaluated
+  - **left/right associativity**: how the order of operations with equal precedence are determined
 
 - **zero**: the absence of quantity (e.g., `u + 0 = u`, `u * 0 = 0`, `u - u = 0`)
 
+  - **addition identity**: all addition operations can add zero and not change the result, thus all additions can be viewed as having an implicit addition of zero (e.g., `3 + 3 = 0 + 3 + 3`)
+
   - **division by zero**: undefined behavior
  
-  - **zero exponent**: <todo>
+  - **zero exponent**: a number multiplied by itself zero times is 1 _(multiplication identity is 1, `3^2 = 1 * 3 * 3 = 9`, `3^0 = 1`)_ (e.g., `u^0 = 1`)
 
     - **0 to the 0th power**: undefined behavior
+   
+- **one**: the building block for counting (e.g., ``)
+
+  - **multiplication identity**: all multiplication operations can multiply itself by one and not change the result, thus all multiplications can be viewed as having an implicit multiplication by one (e.g., ``)
 
 - **self**: (e.g., `u + 0 = u`, `u * 1 = u`, `u - u = 0`, `u = u`)
 
