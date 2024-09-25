@@ -24,9 +24,11 @@ the process of evaluating mathematical expressions
 
 - **commutativity**: operand order does not affect operation result (e.g., `u + v = v + u`, `u * v = v * u`)
 
+- **precedence**: how the order of operations in an expression is determined
+
 - **associativity**: operation order/grouping does not affect expression result (e.g., `(u + v) + w = u + (v + w)`, `(u * v) * w = u * (v * w)`)
 
-- **precedence**: <todo>???
+  - **left/right associativity**: how the order of operations with equal precedence are resolved 
 
 - **self**: <todo>
 
@@ -54,5 +56,5 @@ the process of evaluating mathematical expressions
 
 ## outstanding questions
 
-- given `a#b$c`, where operators # and $ have equal precedence, but # is right-associative and $ is left-associative, which operation is performed first? same question, but the expression is reversed `a$b#c`? are those mathematically valid scenarios?
+- given `a # b $ c`, where operators # and $ have equal precedence, but # is right-associative and $ is left-associative, which operation is performed first? same question, but the expression is reversed `a $ b # c`? are those mathematically valid scenarios?
 
