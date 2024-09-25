@@ -32,11 +32,11 @@ the process of evaluating mathematical expressions
 
 - **zero**: the absence of quantity (e.g., `u + 0 = u`, `u * 0 = 0`, `u - u = 0`)
 
-  - **division by zero**: undefined
+  - **division by zero**: undefined behavior
  
-  - **zero exponent**: ???
+  - **zero exponent**: <todo>
 
-    - **0 to the 0th power**: ???
+    - **0 to the 0th power**: undefined behavior
 
 - **self**: (e.g., `u + 0 = u`, `u * 1 = u`, `u - u = 0`, `u = u`)
 
