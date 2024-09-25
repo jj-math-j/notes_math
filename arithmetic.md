@@ -20,35 +20,39 @@ the process of evaluating mathematical expressions
 
 - **operation**: a deterministic process performed on operands that yields a new value, representing a condensed version of the original expanded operation
 
-- **precedence**: <todo>???
-
-## properties
+## concepts
 
 - **commutativity**: operand order does not affect operation result (e.g., `u + v = v + u`, `u * v = v * u`)
 
-- **associativity**: operation grouping does not affect expression result (e.g., `(u + v) + w = u + (v + w)`, `(u * v) * w = u * (v * w)`)
+- **associativity**: operation order/grouping does not affect expression result (e.g., `(u + v) + w = u + (v + w)`, `(u * v) * w = u * (v * w)`)
 
-- **self existence**: <todo>
+- **precedence**: <todo>???
 
-- **zero existence**: <todo>
+- **self**: <todo>
+
+- **zero**: <todo>
 
 ## operations
 
 - **addition**: <todo>
 
-- **subtraction**: <todo>
-
 - **multiplication**: <todo>
-
-- **division**: <todo>
 
 - **grouping**: <todo>
 
-## shorthands
+## shorthands 
+
+- **subtraction**: <todo>
+
+- **division**: <todo>
 
 - **coefficient**: <todo>
 
 - **negative**: <todo>
 
-- **precedence**: <todo>???
+- **exponent**: <todo>
+
+## outstanding questions
+
+- given `a⊕b+c`, where ⊕ and + have equal precedence, but ⊕ is right-associative and + is left-associative, which operation is performed first? same question, but the expression is reversed `a+b⊕c`? are those mathematically valid scenarios?
 
