@@ -52,9 +52,9 @@ the process of evaluating mathematical expressions
 
 - **multiplication**: the scaling of a number by itself some number of times
 
-- **division**: the partitioning of a number into some number of pieces
+- **division**: the partitioning of a number into some number of equal pieces
 
-- **grouping**: the prioritization of an operation's evaluation
+- **grouping**: the prioritization of an operation's evaluation relative to its peers
 
 ## shorthands 
 
