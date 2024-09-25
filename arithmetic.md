@@ -38,7 +38,7 @@ the process of evaluating mathematical expressions
 
     - **0 to the 0th power**: ???
 
-- **self**: distinct and unique (e.g., `u + 0 = u`, `u * 1 = u`, `u - u = 0`, `u = u`)
+- **self**: (e.g., `u + 0 = u`, `u * 1 = u`, `u - u = 0`, `u = u`)
 
 ## operations
 
