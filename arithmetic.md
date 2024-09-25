@@ -56,11 +56,11 @@ the process of evaluating mathematical expressions
 
 - **negation**: `-x = -1 * x`
 
-- **subtraction**: `7 - x = 7 + (-1 * x)`
+- **subtraction**: `7 - x = 7 + (-x) = 7 + (-1 * x)`
 
 - **exponent**: `x^2 = x * x`
 
 ## outstanding questions
 
-- given `a # b $ c`, where operators # and $ have equal precedence, but # is right-associative and $ is left-associative, which operation is performed first? same question, but the expression is reversed `a $ b # c`? are those mathematically valid scenarios?
+- given `a # b $ c`, where operators # and $ have equal precedence, but # is right-associative and $ is left-associative, which operation is performed first? same question, but the expression is reversed `a $ b # c`? are those mathematically valid scenarios, specifically can two unique operators have equal precedence?
 
