@@ -50,7 +50,7 @@ the process of evaluating mathematical expressions
 
 ### addition
 
-the process of combining two values into a single sum (e.g., `1 + 1 = 2`, `1 + 2 = 3`)
+the process of combining two values (_addends_) into a single value (_sum_) (e.g., `1 + 1 = 2`, `1 + 2 = 3`)
 
 #### anatomy
 
