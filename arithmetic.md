@@ -68,27 +68,115 @@ the process of combining two values (_addends_) into a single value (_sum_) (e.g
 
 - **associativity**: left
 
-- **precedence**: least (left to right when alongside subtractions and other additions)
+- **precedence**: least (left to right versus addition and subtraction)
 
 ### subtraction
 
 (e.g., `7 - x = 7 + (-x) = 7 + (-1 * x)`)
 
+#### anatomy
+
+- **minuend**: 
+
+- **subtrahend**:
+
+- **difference**:
+
+#### properties
+
+- **operation kind**: derivative
+
+- **notation symbol**: -
+
+- **notation kind**: infix
+
+- **associativity**: left
+
+- **precedence**: least (left to right versus addition and subtraction)
+
 ### multiplication
 
 the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2 = 3 + 3`, `-2 * 3 = -2 + -2 + -2 = -(3) + -(3) = -(3 + 3)`)
 
+#### anatomy
+
+- **multiplicand**:
+
+- **multiplier**:
+
+- **product**: 
+
+#### properties
+
+- **operation kind**: foundational
+
+- **notation symbol**: * or x or ·
+
+- **notation kind**: infix
+
+- **associativity**: left
+
+- **precedence**: middle (left to right versus multiplication and division)
+
 ### division
 
-the process of determining (e.g., `4 / 2 = 2`, `2 / 2 = 1`, `1 / 2 = 0.5`)
+(e.g., `4 / 2 = 2`, `2 / 2 = 1`, `1 / 2 = 0.5`)
+
+#### anatomy
+
+- **dividend**:
+
+- **divisor**:
+
+- **quotient**:
+
+#### properties
+
+- **operation kind**: foundational
+
+- **notation symbol**: / or ÷
+
+- **notation kind**: infix
+
+- **associativity**: left
+
+- **precedence**: middle (left to right versus multiplication and division)
 
 ### exponentation
 
-(.e.g., `x^3 = x * x * x`)
+#### anatomy
+
+- **base**:
+
+- **exponent/power**:
+
+#### properties
+
+- **operation kind**: conceptual
+
+- **notation symbol**: ^ or ** or superscript
+
+- **notation kind**: postfix
+
+- **associativity**: right
+
+- **precedence**: highest (left to right versus exponentation and grouping)
 
 ### grouping
 
 the prioritization of an operation's evaluation relative to its peers (e.g., `3 * (2 + 1) = 9`, `3 * 2 + 1 = 7`)
+
+#### properties
+
+- **operation kind**: foundational
+
+- **notation symbol**: (<someExpression>)
+
+- **notation kind**: outfix
+
+- **associativity**: none
+
+- **precedence**: highest (left to right versus exponentation and grouping)
 
 ### negation/inversion
 
@@ -96,9 +184,7 @@ the prioritization of an operation's evaluation relative to its peers (e.g., `3 
 
 ## shorthands 
 
-- **coefficient**: (e.g., the 3 in `3x` where `3x = 3 * x`)
-
-
+- **coefficient/linear**: (e.g., the 3 in `3x` where `3x = 3 * x`)
 
 ## outstanding questions
 
