@@ -64,7 +64,7 @@ the process of combining two values (_addends_) into a single value (_sum_) (e.g
 
 - **notation symbol**: +
 
-- **notation kind**: infix
+- **notation kind**: binary infix
 
 - **associativity**: left
 
@@ -88,7 +88,7 @@ the process of combining two values (_addends_) into a single value (_sum_) (e.g
 
 - **notation symbol**: -
 
-- **notation kind**: infix
+- **notation kind**: binary infix
 
 - **associativity**: left
 
@@ -112,7 +112,7 @@ the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2
 
 - **notation symbol**: * or x or ·
 
-- **notation kind**: infix
+- **notation kind**: binary infix
 
 - **associativity**: left
 
@@ -136,7 +136,7 @@ the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2
 
 - **notation symbol**: / or ÷
 
-- **notation kind**: infix
+- **notation kind**: binary infix
 
 - **associativity**: left
 
@@ -156,11 +156,11 @@ the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2
 
 - **notation symbol**: ^ or ** or superscript
 
-- **notation kind**: postfix
+- **notation kind**: binary postfix
 
 - **associativity**: right
 
-- **precedence**: highest (left to right versus exponentation and grouping)
+- **precedence**: highest(second highest???) (left to right versus exponentation and grouping???)
 
 ### grouping
 
@@ -172,15 +172,27 @@ the prioritization of an operation's evaluation relative to its peers (e.g., `3 
 
 - **notation symbol**: (<someExpression>)
 
-- **notation kind**: outfix
+- **notation kind**: binary??? outfix
 
 - **associativity**: none
 
-- **precedence**: highest (left to right versus exponentation and grouping)
+- **precedence**: highest (left to right versus exponentation and grouping???)
 
 ### negation/inversion
 
 (e.g., `-x = -1 * x`)
+
+#### properties
+
+- **operation kind**: conceptual
+
+- **notation symbol**: -
+
+- **notation kind**: unary prefix
+
+- **associativity**: ???
+
+- **precedence**: ???
 
 ## shorthands 
 
