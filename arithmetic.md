@@ -4,7 +4,7 @@ the process of evaluating mathematical expressions
 
 ## anatomy
 
-- **value**: a numeric representation. types of values include:
+- **value**: a numeric representation
 
   - **literal**: a fixed number used in calculations (e.g., `3`, `2.7`, `π`)
  
@@ -48,25 +48,28 @@ the process of evaluating mathematical expressions
 
 ## operations
 
-- **addition**: the combination of two unique values into a single representative value (e.g., `1 + 1 = 2`, `1 + 2 = 3`)
+- **addition**: the process of combining two values to form a single sum (e.g., `1 + 1 = 2`, `1 + 2 = 3`)
 
-- **multiplication**: the scaling of a number by itself some number of times (e.g., )
+- **subtraction**: (e.g., `7 - x = 7 + (-x) = 7 + (-1 * x)`)
 
-- **division**: the partitioning of a number into some number of equal pieces (e.g., `4 / 2 = 2`, `2 / 2 = 1`, `1 / 2 = 0.5`)
+- **multiplication**: the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2 = 3 + 3`, `-2 * 3 = -2 + -2 + -2 = -(3) + -(3) = -(3 + 3)`)
+
+- **division**: the process of determining   (e.g., `4 / 2 = 2`, `2 / 2 = 1`, `1 / 2 = 0.5`)
+
+- **exponentation**: (.e.g., `x^3 = x * x * x`)
 
 - **grouping**: the prioritization of an operation's evaluation relative to its peers (e.g., `3 * (2 + 1) = 9`, `3 * 2 + 1 = 7`)
+
+- **negation/inversion**: (e.g., `-x = -1 * x`)
 
 ## shorthands 
 
 - **coefficient**: (e.g., the 3 in `3x` where `3x = 3 * x`)
 
-- **negation**: (e.g., `-x = -1 * x`)
 
-- **subtraction**: (e.g., `7 - x = 7 + (-x) = 7 + (-1 * x)`)
-
-- **exponent**: (.e.g., `x^3 = x * x * x`)
 
 ## outstanding questions
 
-- given `a # b $ c`, where operators # and $ have equal precedence, but # is right-associative and $ is left-associative, which operation is performed first? same question, but the expression is reversed `a $ b # c`? are those mathematically valid scenarios, specifically can two unique operators have equal precedence?
+- given `a # b $ c`, where operators # and $ have equal precedence, but # is right-associative and $ is left-associative, which operation is performed first? same question, but the expression is reversed `a $ b # c`? are those mathematically valid scenarios, specifically can two unique operators with different directions of associativity have equal precedence?
+
 
