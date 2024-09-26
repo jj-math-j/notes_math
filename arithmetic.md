@@ -48,19 +48,49 @@ the process of evaluating mathematical expressions
 
 ## operations
 
-- **addition**: the process of combining two values to form a single sum (e.g., `1 + 1 = 2`, `1 + 2 = 3`)
+### addition
 
-- **subtraction**: (e.g., `7 - x = 7 + (-x) = 7 + (-1 * x)`)
+the process of combining two values into a single sum (e.g., `1 + 1 = 2`, `1 + 2 = 3`)
 
-- **multiplication**: the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2 = 3 + 3`, `-2 * 3 = -2 + -2 + -2 = -(3) + -(3) = -(3 + 3)`)
+##### anatomy
 
-- **division**: the process of determining   (e.g., `4 / 2 = 2`, `2 / 2 = 1`, `1 / 2 = 0.5`)
+- **addend**: an operand value in an addition operation
 
-- **exponentation**: (.e.g., `x^3 = x * x * x`)
+- **sum**: the result value of an addition operation
 
-- **grouping**: the prioritization of an operation's evaluation relative to its peers (e.g., `3 * (2 + 1) = 9`, `3 * 2 + 1 = 7`)
+##### properties
 
-- **negation/inversion**: (e.g., `-x = -1 * x`)
+- **notation symbol**: +
+
+- **notation kind**: infix
+
+- **associativity**: left
+
+- **precedence**: least (left to right when alongside subtractions and other additions)
+
+### subtraction
+
+(e.g., `7 - x = 7 + (-x) = 7 + (-1 * x)`)
+
+### multiplication
+
+the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2 = 3 + 3`, `-2 * 3 = -2 + -2 + -2 = -(3) + -(3) = -(3 + 3)`)
+
+### division
+
+the process of determining (e.g., `4 / 2 = 2`, `2 / 2 = 1`, `1 / 2 = 0.5`)
+
+### exponentation
+
+(.e.g., `x^3 = x * x * x`)
+
+### grouping
+
+the prioritization of an operation's evaluation relative to its peers (e.g., `3 * (2 + 1) = 9`, `3 * 2 + 1 = 7`)
+
+### negation/inversion
+
+(e.g., `-x = -1 * x`)
 
 ## shorthands 
 
