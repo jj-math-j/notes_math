@@ -52,13 +52,15 @@ the process of evaluating mathematical expressions
 
 the process of combining two values into a single sum (e.g., `1 + 1 = 2`, `1 + 2 = 3`)
 
-##### anatomy
+#### anatomy
 
 - **addend**: an operand value in an addition operation
 
 - **sum**: the result value of an addition operation
 
-##### properties
+#### properties
+
+- **operation kind**: foundational
 
 - **notation symbol**: +
 
