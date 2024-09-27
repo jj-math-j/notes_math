@@ -196,9 +196,17 @@ the process of evaluating mathematical expressions
 
 - **precedence**: 2 (left to right versus exponentation and grouping???)
 
-### logarithmic ???
+### logarithm
 
-### grouping
+#### anatomy
+
+#### perspectives
+
+#### mechanics
+
+#### grouping
+
+#### perspectives
 
 the prioritization of an operation's evaluation relative to its peers (e.g., `3 * (2 + 1) = 9`, `3 * 2 + 1 = 7`)
 
@@ -214,9 +222,10 @@ the prioritization of an operation's evaluation relative to its peers (e.g., `3 
 
 ### negation/inversion
 
+#### perspectives
 (e.g., `-x = -1 * x`)
 
-#### properties
+#### mechanics
 
 - **notation symbol**: -
 
