@@ -134,7 +134,7 @@ the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2
 
 - **precedence**: 1 (left to right versus multiplication and division)
 
-### exponentation (accumulation, scaling)
+### exponentation (compound accumulation, compound scaling)
 
 #### anatomy
 
@@ -152,6 +152,8 @@ the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2
 
 - **precedence**: 2 (left to right versus exponentation and grouping???)
 
+### logarithmic ???
+
 ### grouping
 
 the prioritization of an operation's evaluation relative to its peers (e.g., `3 * (2 + 1) = 9`, `3 * 2 + 1 = 7`)
@@ -165,8 +167,6 @@ the prioritization of an operation's evaluation relative to its peers (e.g., `3 
 - **associativity**: none
 
 - **precedence**: 3 (left to right versus exponentation and grouping???)
-
-### logarithmic ???
 
 ### negation/inversion
 
@@ -187,5 +187,7 @@ the prioritization of an operation's evaluation relative to its peers (e.g., `3 
 - given `a # b $ c`, where operators # and $ have equal precedence, but # is right-associative and $ is left-associative, which operation is performed first? same question, but the expression is reversed `a $ b # c`? are those mathematically valid scenarios, specifically can two unique operators with different directions of associativity have equal precedence?
 
 ## commentary
+
+<todo highlight asymmetries>
 
 
