@@ -48,9 +48,7 @@ the process of evaluating mathematical expressions
 
 ## operations
 
-### addition (accumulation, combining)
-
-the process of combining two values (_addends_) into a single value (_sum_) (e.g., `1 + 1 = 2`, `1 + 2 = 3`)
+### addition
 
 #### anatomy
 
@@ -58,9 +56,23 @@ the process of combining two values (_addends_) into a single value (_sum_) (e.g
 
 - **sum**: the result value of an addition operation
 
+- **augend**: the operand being added to
+
+#### perspectives
+
+- **mechanical**: a symmetrical process combining two values into a single value
+
+- **combination**: centralizing/condensing two unique values into a single representative value
+
+- **accumulation**: increasing an established value by some value
+
 #### mechanics
 
-- **notation**: `<lhs> + <rhs>` (binary infix)
+- **notation kind**: binary infix
+
+- **notation symbol**: +
+
+- **properties**: commutative, associative
 
 - **associativity**: left
 
