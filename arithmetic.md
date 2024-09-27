@@ -58,11 +58,9 @@ the process of combining two values (_addends_) into a single value (_sum_) (e.g
 
 - **sum**: the result value of an addition operation
 
-#### properties
+#### mechanics
 
-- **notation symbol**: +
-
-- **notation kind**: binary infix
+- **notation**: `<lhs> + <rhs>` (binary infix)
 
 - **associativity**: left
 
