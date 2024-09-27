@@ -54,13 +54,13 @@ the process of evaluating mathematical expressions
 
 - **addend**: an operand in an addition operation
 
-- **sum**: the result value of an addition operation
+- **sum**: the result of an addition operation
 
 - **augend**: the operand being added to
 
 #### perspectives
 
-- **mechanical**: a symmetrical process combining two values into a single value
+- **mechanical**: a symmetrical process merging two values into a single value
 
 - **combination**: centralizing/condensing two unique values into a single representative value
 
@@ -80,8 +80,6 @@ the process of evaluating mathematical expressions
 
 ### subtraction (removing, difference/delta)
 
-(e.g., `7 - x = 7 + (-x) = 7 + (-1 * x)`)
-
 #### anatomy
 
 - **minuend**: the operand being changed (left-hand operand)
@@ -90,13 +88,23 @@ the process of evaluating mathematical expressions
 
 - **difference**: the result value of a subtaction operation
 
-#### properties
+### perspectives
 
-- **notation symbol**: -
+- **mechanical**: an asymmetrical process incrementing/decrementing a base value by some value
+
+- **difference**: identifying the (relative???) quantitative distance between two values
+
+- **removing**: decreasing an established value by some value
+
+#### mechanics
 
 - **notation kind**: binary infix
 
+- **notation symbol**: -
+
 - **associativity**: left
+
+- **properties**: none (not-commutative, not-associative)
 
 - **precedence**: 0 (left to right versus addition and subtraction)
 
