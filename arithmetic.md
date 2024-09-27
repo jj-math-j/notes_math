@@ -168,7 +168,7 @@ the process of evaluating mathematical expressions
 
 - **precedence**: 1 (left to right versus multiplication and division)
 
-### exponentation (compound accumulation, compound scaling)
+### exponentation
 
 #### anatomy
 
