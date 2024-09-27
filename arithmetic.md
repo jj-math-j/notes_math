@@ -78,7 +78,7 @@ the process of evaluating mathematical expressions
 
 - **precedence**: 0 (left to right versus addition and subtraction)
 
-### subtraction (removing, difference/delta)
+### subtraction
 
 #### anatomy
 
@@ -108,9 +108,7 @@ the process of evaluating mathematical expressions
 
 - **precedence**: 0 (left to right versus addition and subtraction)
 
-### multiplication (repetition, scaling)
-
-the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2 = 3 + 3`, `-2 * 3 = -2 + -2 + -2 = -(3) + -(3) = -(3 + 3)`)
+### multiplication
 
 #### anatomy
 
@@ -120,19 +118,27 @@ the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2
 
 - **product**: the result value of a multiplication operation
 
-#### properties
+#### perspectives
+
+- **mechanical**:
+
+- **repetition**:
+
+- **scaling**:
+
+#### mechanics
 
 - **notation symbol**: * or x or · or implicit/scalar/juxtaposition
 
 - **notation kind**: binary infix
 
+- **properties**: commutative, associative
+
 - **associativity**: left
 
 - **precedence**: 1 (left to right versus multiplication and division)
 
-### division (partitioning, scaling)
-
-(e.g., `4 / 2 = 2`, `2 / 2 = 1`, `1 / 2 = 0.5`)
+### division
 
 #### anatomy
 
@@ -142,13 +148,23 @@ the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2
 
 - **quotient**: the result value of a division operation
 
-#### properties
+#### perspectives
+
+- **mechanical**:
+
+- **partitioning**:
+
+- **scaling**: 
+
+#### mechanics
 
 - **notation symbol**: / or ÷ or fraction (/ can lead to grouping ambiguity a/bc)
 
 - **notation kind**: binary infix
 
 - **associativity**: left
+
+- **properties**: none (non-commutative, non-associative)
 
 - **precedence**: 1 (left to right versus multiplication and division)
 
@@ -160,13 +176,23 @@ the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2
 
 - **exponent/power**: the multiplication count operand
 
-#### properties
+### perspectives
+
+- **mechanical**:
+
+- **compound accumulation**:
+
+- **compound scaling**:
+
+#### mechanics
 
 - **notation symbol**: ^ or ** or superscript
 
 - **notation kind**: binary postfix
 
 - **associativity**: right
+
+- **properties**:
 
 - **precedence**: 2 (left to right versus exponentation and grouping???)
 
@@ -176,9 +202,9 @@ the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2
 
 the prioritization of an operation's evaluation relative to its peers (e.g., `3 * (2 + 1) = 9`, `3 * 2 + 1 = 7`)
 
-#### properties
+#### mechanics
 
-- **notation symbol**: (<someExpression>)
+- **notation symbol**: (`...`)
 
 - **notation kind**: outfix
 
