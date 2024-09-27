@@ -48,19 +48,17 @@ the process of evaluating mathematical expressions
 
 ## operations
 
-### addition
+### addition (accumulation, combining)
 
 the process of combining two values (_addends_) into a single value (_sum_) (e.g., `1 + 1 = 2`, `1 + 2 = 3`)
 
 #### anatomy
 
-- **addend**: an operand value in an addition operation
+- **addend**: an operand in an addition operation
 
 - **sum**: the result value of an addition operation
 
 #### properties
-
-- **operation kind**: foundational
 
 - **notation symbol**: +
 
@@ -68,23 +66,21 @@ the process of combining two values (_addends_) into a single value (_sum_) (e.g
 
 - **associativity**: left
 
-- **precedence**: least (left to right versus addition and subtraction)
+- **precedence**: 0 (left to right versus addition and subtraction)
 
-### subtraction
+### subtraction (removing, difference/delta)
 
 (e.g., `7 - x = 7 + (-x) = 7 + (-1 * x)`)
 
 #### anatomy
 
-- **minuend**: 
+- **minuend**: the operand being changed (left-hand operand)
 
-- **subtrahend**:
+- **subtrahend**: the operand to change by (right-hand operand)
 
-- **difference**:
+- **difference**: the result value of a subtaction operation
 
 #### properties
-
-- **operation kind**: derivative
 
 - **notation symbol**: -
 
@@ -92,67 +88,61 @@ the process of combining two values (_addends_) into a single value (_sum_) (e.g
 
 - **associativity**: left
 
-- **precedence**: least (left to right versus addition and subtraction)
+- **precedence**: 0 (left to right versus addition and subtraction)
 
-### multiplication
+### multiplication (repetition, scaling)
 
 the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2 = 3 + 3`, `-2 * 3 = -2 + -2 + -2 = -(3) + -(3) = -(3 + 3)`)
 
 #### anatomy
 
-- **multiplicand**:
+- **multiplicand**: the repeated operand
 
-- **multiplier**:
+- **multiplier**: the repetition amount operand
 
-- **product**: 
+- **product**: the result value of a multiplication operation
 
 #### properties
 
-- **operation kind**: foundational
-
-- **notation symbol**: * or x or ·
+- **notation symbol**: * or x or · or implicit/scalar/juxtaposition
 
 - **notation kind**: binary infix
 
 - **associativity**: left
 
-- **precedence**: middle (left to right versus multiplication and division)
+- **precedence**: 1 (left to right versus multiplication and division)
 
-### division
+### division (partitioning, scaling)
 
 (e.g., `4 / 2 = 2`, `2 / 2 = 1`, `1 / 2 = 0.5`)
 
 #### anatomy
 
-- **dividend**:
+- **dividend**: the operand being divided
 
-- **divisor**:
+- **divisor**: the operand to divide by
 
-- **quotient**:
+- **quotient**: the result value of a division operation
 
 #### properties
 
-- **operation kind**: foundational
-
-- **notation symbol**: / or ÷
+- **notation symbol**: / or ÷ or fraction (/ can lead to grouping ambiguity a/bc)
 
 - **notation kind**: binary infix
 
 - **associativity**: left
 
-- **precedence**: middle (left to right versus multiplication and division)
+- **precedence**: 1 (left to right versus multiplication and division)
 
-### exponentation
+### exponentation (accumulation, scaling)
 
 #### anatomy
 
-- **base**:
+- **base**: the multiplied operand
 
-- **exponent/power**:
+- **exponent/power**: the multiplication count operand
 
 #### properties
-
-- **operation kind**: conceptual
 
 - **notation symbol**: ^ or ** or superscript
 
@@ -160,7 +150,7 @@ the scaling of a number by itself some number of times (e.g., `2 * 3 = 2 + 2 + 2
 
 - **associativity**: right
 
-- **precedence**: highest(second highest???) (left to right versus exponentation and grouping???)
+- **precedence**: 2 (left to right versus exponentation and grouping???)
 
 ### grouping
 
@@ -168,15 +158,15 @@ the prioritization of an operation's evaluation relative to its peers (e.g., `3 
 
 #### properties
 
-- **operation kind**: foundational
-
 - **notation symbol**: (<someExpression>)
 
-- **notation kind**: binary??? outfix
+- **notation kind**: outfix
 
 - **associativity**: none
 
-- **precedence**: highest (left to right versus exponentation and grouping???)
+- **precedence**: 3 (left to right versus exponentation and grouping???)
+
+### logarithmic ???
 
 ### negation/inversion
 
@@ -184,22 +174,18 @@ the prioritization of an operation's evaluation relative to its peers (e.g., `3 
 
 #### properties
 
-- **operation kind**: conceptual
-
 - **notation symbol**: -
 
 - **notation kind**: unary prefix
 
-- **associativity**: ???
+- **associativity**: right
 
-- **precedence**: ???
-
-## shorthands 
-
-- **coefficient/linear**: (e.g., the 3 in `3x` where `3x = 3 * x`)
+- **precedence**: 4
 
 ## outstanding questions
 
 - given `a # b $ c`, where operators # and $ have equal precedence, but # is right-associative and $ is left-associative, which operation is performed first? same question, but the expression is reversed `a $ b # c`? are those mathematically valid scenarios, specifically can two unique operators with different directions of associativity have equal precedence?
+
+## commentary
 
 
