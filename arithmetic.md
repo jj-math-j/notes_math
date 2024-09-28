@@ -60,11 +60,9 @@ the process of evaluating mathematical expressions
 
 #### perspectives
 
-- **mechanical**: a symmetrical process merging two values into a single value
+- **combination**: a symmetrical process centralizing/condensing two unique values into a single representative value
 
-- **combination**: centralizing/condensing two unique values into a single representative value
-
-- **accumulation**: increasing an established value by some value
+- **accumulation**: an asymmetrical process that increments an established value by some value
 
 #### mechanics
 
@@ -72,7 +70,7 @@ the process of evaluating mathematical expressions
 
 - **notation symbol**: +
 
-- **properties**: commutative, associative
+- **properties**: commutative, associative (symmetrical operands)
 
 - **associativity**: left
 
@@ -90,11 +88,9 @@ the process of evaluating mathematical expressions
 
 ### perspectives
 
-- **mechanical**: an asymmetrical process incrementing/decrementing a base value by some value
+- **difference**: an asymmetrical process that measures the relative distance from one value to another value
 
-- **difference**: identifying the (relative???) quantitative distance between two values
-
-- **removing**: decreasing an established value by some value
+- **removing**: an asymmetrical process that decrements an established value by some value
 
 #### mechanics
 
@@ -104,7 +100,7 @@ the process of evaluating mathematical expressions
 
 - **associativity**: left
 
-- **properties**: none (not-commutative, not-associative)
+- **properties**: none (not-commutative, not-associative) (asymmetrical operands???)
 
 - **precedence**: 0 (left to right versus addition and subtraction)
 
@@ -120,11 +116,11 @@ the process of evaluating mathematical expressions
 
 #### perspectives
 
-- **mechanical**:
+- **repeated addition**: an asymmetrical process that describes a number added to itself a number of times
 
-- **repetition**:
+- **scaling**: an asymmetrical process that describes the rate of change of a value
 
-- **scaling**:
+- **coverage**: a symmetrical process that measures the area described by two values 
 
 #### mechanics
 
@@ -132,7 +128,7 @@ the process of evaluating mathematical expressions
 
 - **notation kind**: binary infix
 
-- **properties**: commutative, associative
+- **properties**: commutative, associative (symmetrical operands)
 
 - **associativity**: left
 
@@ -150,11 +146,11 @@ the process of evaluating mathematical expressions
 
 #### perspectives
 
-- **mechanical**:
+- **repeated subtraction**: 
+
+- **scaling**:
 
 - **partitioning**:
-
-- **scaling**: 
 
 #### mechanics
 
@@ -177,8 +173,6 @@ the process of evaluating mathematical expressions
 - **exponent/power**: the multiplication count operand
 
 ### perspectives
-
-- **mechanical**:
 
 - **compound accumulation**:
 
@@ -204,7 +198,7 @@ the process of evaluating mathematical expressions
 
 #### mechanics
 
-#### grouping
+### grouping
 
 #### perspectives
 
