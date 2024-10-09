@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "deno.window",
+            "DOM"
+        ]
+    },
+    "fmt": {
+        "useTabs": false,
+        "singleQuote": true,
+        "semiColons": true,
+        "indentWidth": 2
+    },
+    "lint": {
+        "rules": {
+            "exclude": [
+                "no-empty-interface"
+            ]
+        }
+    },
+    "tasks": {
+        "startServer": "deno run --allow-net --allow-read ./startServer.ts"
+    }
+}
