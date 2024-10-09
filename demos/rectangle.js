@@ -1,5 +1,5 @@
 console.log('rectangle')
 
-export function loadDemo() {
+export function loadDemo(demoContainerElement) {
     console.log('loading rectangle demo')
 }

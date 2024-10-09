@@ -1,5 +1,5 @@
 console.log('foo')
 
-export function loadDemo() {
+export function loadDemo(demoContainerElement) {
     console.log('loading foo demo')
 }
