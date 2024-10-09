@@ -1,2 +1,5 @@
-let foo = document.getElementById('aaa')
-foo.style.backgroundColor = 'red'
+console.log('rectangle')
+
+export function loadDemo() {
+    console.log('loading rectangle demo')
+}

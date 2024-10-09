@@ -1,4 +1,10 @@
 {
+    "compilerOptions": {
+        "lib": [
+            "DOM",
+            "ESNext"
+        ]
+    },
     "fmt": {
         "useTabs": false,
         "singleQuote": true,
