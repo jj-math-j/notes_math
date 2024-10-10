@@ -1,93 +1,52 @@
 console.log("rectangle");
 
 export function loadDemo(demoContainerElement) {
-    console.log("loading rectangle demo");
-    const canvasElement = document.createElement("canvas");
-    const canvasDomWidth = 512;
-    const canvasDomHeight = 512;
-    canvasElement.style.width = canvasDomWidth;
-    canvasElement.style.height = canvasDomHeight;
-    demoContainerElement.appendChild(canvasElement);
-    const canvasBoundingRect = canvasElement.getBoundingClientRect();
-    const devicePixelRatio = window.devicePixelRatio;
-    canvasElement.width = devicePixelRatio * canvasBoundingRect.width;
-    canvasElement.height = devicePixelRatio * canvasBoundingRect.height;
-    const canvasContext = canvasElement.getContext("2d");
-    const graphicWidth = 2;
-    const graphicHeight = 2;
-    canvasContext.translate(0, canvasElement.height);
-    canvasContext.scale(
-        devicePixelRatio * canvasDomWidth / graphicWidth,
-        -devicePixelRatio * canvasDomHeight / graphicHeight,
-    );
-    const diagramWidth = graphicWidth * 0.95;
-    const diagramHeight = graphicHeight * 0.95;
-    const diagramXxx = (graphicWidth - diagramWidth) / 2;
-    const diagramYyy = (graphicHeight - diagramHeight) / 2;
-    canvasContext.translate(diagramXxx, diagramYyy);
-    canvasContext.scale(diagramWidth / 1.25, diagramHeight / 1.25);
-    // canvasContext.fillStyle = "red";
-    // canvasContext.fillRect(
-    //     0,
-    //     0,
-    //     2,
-    //     2,
-    // );
+    const diagramWidth = 2;
+    const diagramHeight = 2;
+    const diagramRelativePadding = 0.05;
+    const diagramWidthPadding = diagramWidth * diagramRelativePadding;
+    const diagramHeightPadding = diagramHeight * diagramRelativePadding;
+    const viewXxx = -diagramWidthPadding;
+    const viewYyy = -diagramHeightPadding;
+    const viewWidth = diagramWidth + 2 * diagramWidthPadding;
+    const viewHeight = diagramHeight + 2 * diagramHeightPadding;
     const rectangleHypotenuse = 1;
     const rectangleWidth = 1 / 2;
     const rectangleHeight = Math.sqrt(
         rectangleHypotenuse * rectangleHypotenuse -
             rectangleWidth * rectangleWidth,
     );
-    const rectangleVertexAaa = [0, 0];
-    const rectangleVertexBbb = [0, rectangleHeight];
-    const rectangleVertexCcc = [rectangleWidth, rectangleHeight];
-    const rectangleVertexDdd = [rectangleWidth, 0];
-    canvasContext.beginPath()
-    canvasContext.moveTo(
-        rectangleVertexAaa[0],
-        rectangleVertexAaa[1],
+    const rectangleVertex_Aaa = [0, 0];
+    const rectangleVertex_Bbb = [0, rectangleHeight];
+    const rectangleVertex_Ccc = [rectangleWidth, rectangleHeight];
+    const rectangleVertex_Ddd = [rectangleWidth, 0];
+    const rectangleVertices = [
+        rectangleVertex_Aaa,
+        rectangleVertex_Bbb,
+        rectangleVertex_Ccc,
+        rectangleVertex_Ddd,
+    ];
+    const svgNS = "http://www.w3.org/2000/svg";
+    const svgElement = document.createElementNS(svgNS, "svg");
+    svgElement.setAttribute(
+        "viewBox",
+        `${viewXxx} ${viewYyy} ${viewWidth} ${viewHeight}`,
     );
-    canvasContext.lineTo(
-        rectangleVertexBbb[0],
-        rectangleVertexBbb[1],
+    svgElement.style.width = 512;
+    svgElement.style.height = 512;
+    const diagramTransformElement = document.createElementNS(svgNS, "g");
+    diagramTransformElement.setAttribute(
+        "transform",
+        `translate(0, ${diagramHeight}) scale(1,-1)`
     );
-    canvasContext.lineTo(
-        rectangleVertexCcc[0],
-        rectangleVertexCcc[1],
-    );
-    canvasContext.strokeStyle = "red";
-    canvasContext.lineWidth = 2 / 200;
-    canvasContext.stroke();
-    canvasContext.beginPath()
-    canvasContext.moveTo(
-        rectangleVertexCcc[0],
-        rectangleVertexCcc[1],
-    );
-    canvasContext.lineTo(
-        rectangleVertexDdd[0],
-        rectangleVertexDdd[1],
-    );
-    canvasContext.lineTo(
-        rectangleVertexAaa[0],
-        rectangleVertexAaa[1],
-    );
-    canvasContext.strokeStyle = "blue";
-    canvasContext.lineWidth = 2 / 200;    
-    canvasContext.stroke();
-    canvasContext.beginPath()
-    canvasContext.moveTo(
-        rectangleVertexAaa[0],
-        rectangleVertexAaa[1],
-    );
-    canvasContext.lineTo(
-        rectangleVertexCcc[0],
-        rectangleVertexCcc[1],
-    );
-    canvasContext.strokeStyle = "green";
-    canvasContext.lineWidth = 2 / 200;
-    canvasContext.stroke();
-    // const yyyCoordinateAaa = -1;
-    // const xxxCoordinateBbb = -1;
-    // const yyyCoordinateBbb = -1;
+    svgElement.appendChild(diagramTransformElement);
+    rectangleVertices.forEach((someRectangleVertex) => {
+        const vertexCircleElement = document.createElementNS(svgNS, "circle");
+        vertexCircleElement.setAttribute("cx", someRectangleVertex[0]);
+        vertexCircleElement.setAttribute("cy", someRectangleVertex[1]);
+        vertexCircleElement.setAttribute("r", 0.01);
+        vertexCircleElement.setAttribute("fill", "red");
+        diagramTransformElement.appendChild(vertexCircleElement);
+    });
+    demoContainerElement.appendChild(svgElement);
 }
