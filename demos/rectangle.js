@@ -43,6 +43,7 @@ export function loadDemo(demoContainerElement) {
     const rectangleVertexBbb = [0, rectangleHeight];
     const rectangleVertexCcc = [rectangleWidth, rectangleHeight];
     const rectangleVertexDdd = [rectangleWidth, 0];
+    canvasContext.beginPath()
     canvasContext.moveTo(
         rectangleVertexAaa[0],
         rectangleVertexAaa[1],
@@ -55,12 +56,35 @@ export function loadDemo(demoContainerElement) {
         rectangleVertexCcc[0],
         rectangleVertexCcc[1],
     );
+    canvasContext.strokeStyle = "red";
+    canvasContext.lineWidth = 2 / 200;
+    canvasContext.stroke();
+    canvasContext.beginPath()
+    canvasContext.moveTo(
+        rectangleVertexCcc[0],
+        rectangleVertexCcc[1],
+    );
     canvasContext.lineTo(
         rectangleVertexDdd[0],
         rectangleVertexDdd[1],
     );
-    canvasContext.closePath()
-    canvasContext.strokeStyle = "black";
+    canvasContext.lineTo(
+        rectangleVertexAaa[0],
+        rectangleVertexAaa[1],
+    );
+    canvasContext.strokeStyle = "blue";
+    canvasContext.lineWidth = 2 / 200;    
+    canvasContext.stroke();
+    canvasContext.beginPath()
+    canvasContext.moveTo(
+        rectangleVertexAaa[0],
+        rectangleVertexAaa[1],
+    );
+    canvasContext.lineTo(
+        rectangleVertexCcc[0],
+        rectangleVertexCcc[1],
+    );
+    canvasContext.strokeStyle = "green";
     canvasContext.lineWidth = 2 / 200;
     canvasContext.stroke();
     // const yyyCoordinateAaa = -1;
