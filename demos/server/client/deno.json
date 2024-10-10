@@ -6,10 +6,12 @@
         ]
     },
     "fmt": {
-        "useTabs": false,
-        "singleQuote": true,
-        "semiColons": true,
-        "indentWidth": 2
+        "options": {
+            "useTabs": false,
+            "singleQuote": true,
+            "semiColons": true,
+            "indentWidth": 2
+        }
     },
     "lint": {
         "rules": {
