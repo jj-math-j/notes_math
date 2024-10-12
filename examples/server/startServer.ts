@@ -1,5 +1,6 @@
 import { serveFile } from 'jsr:@std/http/file-server';
 
+const widgetDirectoryPath = Deno.realPathSync('../widgets');
 Deno.serve((clientRequest: Request) => {
   const requestUrl = new URL(clientRequest.url);
   requestUrl.pathname = requestUrl.pathname === '/'
@@ -11,7 +12,17 @@ Deno.serve((clientRequest: Request) => {
     )
   ) {
     return serveFile(clientRequest, `./client${requestUrl.pathname}`);
-  } else if (['/rectangle.js', '/foo.js'].includes(requestUrl.pathname)) {
+  } else if ('/widgets' === requestUrl.pathname) {
+    const widgetEntryKeysResult = [];
+    const widgetEntries = Deno.readDirSync(widgetDirectoryPath);    
+    for (const someWidgetEntry of widgetEntries) {
+      widgetEntryKeysResult.push(someWidgetEntry.name);
+    }
+    return new Response(JSON.stringify(widgetEntryKeysResult), {
+      status: 200,
+      headers: new Headers({ 'Content-Type': 'application/json' }),
+    });
+  } else if (requestUrl.pathname.startsWith('/widgets/')) {
     return serveFile(
       clientRequest,
       `${Deno.realPathSync('..')}${requestUrl.pathname}`,
