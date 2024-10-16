@@ -1,10 +1,39 @@
 export default class RectangleWidget extends HTMLElement {
     constructor() {
-        super()        
+        super();
     }
 
     connectedCallback() {
-        console.log('rectangle')
+        const diagramPaddingSize = 0.05;
+        const diagramSize = 1;
+        const viewboxSize = diagramSize + 2 * diagramPaddingSize;
+        this.style.display = "flex";
+        this.style.flexDirection = "row";
+        const svgNamespace = "http://www.w3.org/2000/svg";
+        const svgElement = document.createElementNS(svgNamespace, "svg");
+        svgElement.style.flexGrow = 1;
+        svgElement.style.maxWidth = 512;
+        svgElement.style.maxHeight = 512;
+        svgElement.viewBox.baseVal.x = -diagramPaddingSize;
+        svgElement.viewBox.baseVal.y = -diagramPaddingSize;
+        svgElement.viewBox.baseVal.width = viewboxSize;
+        svgElement.viewBox.baseVal.height = viewboxSize;
+        const diagramGroupElement = document.createElementNS(svgNamespace, "g");        
+        const diagramGroupMatrix = svgElement.createSVGMatrix().translate(
+            0,
+            diagramSize,
+        ).scale(1,-1);
+        const diagramGroupTransform = svgElement.createSVGTransform();
+        diagramGroupTransform.setMatrix(diagramGroupMatrix);
+        diagramGroupElement.transform.baseVal.appendItem(diagramGroupTransform);
+        svgElement.appendChild(diagramGroupElement);
+        const fooElement = document.createElementNS(svgNamespace, "circle");
+        fooElement.cx.baseVal.value = 0;
+        fooElement.cy.baseVal.value = 0;
+        fooElement.r.baseVal.value = 0.01;
+        fooElement.style.fill = "red";
+        diagramGroupElement.appendChild(fooElement);
+        this.appendChild(svgElement);
     }
 }
 // export function loadDemo(demoContainerElement) {
@@ -84,8 +113,8 @@ export default class RectangleWidget extends HTMLElement {
 //         rectangleVertex_Ccc,
 //         otherSmallTriangleVertex_Iii,
 //     ];
-//     const svgNS = "http://www.w3.org/2000/svg";
-//     const svgElement = document.createElementNS(svgNS, "svg");
+// const svgNS = "http://www.w3.org/2000/svg";
+// const svgElement = document.createElementNS(svgNS, "svg");
 //     svgElement.setAttribute(
 //         "viewBox",
 //         `${viewXxx} ${viewYyy} ${viewWidth} ${viewHeight}`,
@@ -200,7 +229,7 @@ export default class RectangleWidget extends HTMLElement {
 
 // class RectangleDemoElement extends HTMLElement {
 //     constructor() {
-//         super();        
+//         super();
 //         this.svgElement = new SVGSVGElement()
 //         this.rectangleVertexAaa = document.importNode()
 //     }
